@@ -151,11 +151,15 @@
          HEADER: photo, name, experiences
          ============================================================ -->
       <header>
-        <!-- Replace this div with <img src="your-photo.jpg" class="photo"> -->
-        <div class="photo">Photo</div>
+        <img src="Professional_Photo.png" class="photo" alt="Cassie Young">
 
         <h1>Cassie Young</h1>
         <p>McGill Business Analytics Student <br> SQL · Python · Tableau · Stata · R </p>
+        <p>
+          Connect with me: 
+          <a href="https://www.linkedin.com/in/cassie-young0119" target="_blank">LinkedIn</a> | 
+          <a href="https://github.com/cass1eoo" target="_blank">GitHub</a>
+        </p>
       </header>
 
       <!-- ============================================================
@@ -165,8 +169,14 @@
         <button class="tab-button active" onclick="showTab('about')">
           About Me
         </button>
+        <button class="tab-button" onclick="showTab('experience')">
+          Experience
+        </button>
         <button class="tab-button" onclick="showTab('projects')">
           Projects
+        </button>
+        <button class="tab-button" onclick="showTab('community')">
+          Volunteer
         </button>
       </div>
 
@@ -174,44 +184,155 @@
       <div id="about" class="tab-content active">
         <div class="panel">
           <p>
-            Write a short introduction about yourself here — your background,
-            skills, and what kind of business analytics role you're looking for.
+            Hello! I am Cassie Yang, currently a Master of Management in Analytics (MMA) student at McGill University. I have a strong academic foundation in Finance (Ranked 1/116) from Shanghai Ocean University and previously completed a Master of Business Preparation Program at UC Riverside.
+          </p>
+          <br>
+          <p>
+            <strong>Career Goal:</strong> I am actively seeking roles in Data Analytics, Financial Analysis, and Quantitative Research where I can leverage my data-driven problem-solving skills to drive strategic business decisions.
           </p>
         </div>
       </div>
 
-      <!-- ---------- TAB 2: PROJECTS ---------- -->
-      <div id="projects" class="tab-content">
+      <!-- ---------- TAB 2: EXPERIENCE ---------- -->
+      <div id="experience" class="tab-content">
         <div class="cards">
-          <!-- CARD 1 -->
+          
           <div class="card">
-            <div class="card-photo">Project Image</div>
+            <div class="card-photo" style="background:#2c3e50; color:white; font-size:16px;">
+              📊 Quantitative Research
+            </div>
             <div class="card-text">
-              <h3>Project Title</h3>
-              <p>Short description of what you did and the tools you used.</p>
+              <h3>Research Assistant @ UC Riverside</h3>
+              <p><strong>10/2025 - 05/2026</strong></p>
+              <br>
+              <p>Cleaned over 914,000 U.S. financial firm records and constructed systemic risk measures (including VaR and CoVaR via Quantile Regression) to evaluate global financial stability.</p>
             </div>
           </div>
 
-          <!-- CARD 2 -->
           <div class="card">
-            <div class="card-photo">Project Image</div>
+            <div class="card-photo" style="background:#27ae60; color:white; font-size:16px;">
+              🌱 ESG Research
+            </div>
             <div class="card-text">
-              <h3>Project Title</h3>
-              <p>Short description of what you did and the tools you used.</p>
+              <h3>RA Intern @ Int'l Inst. of Green Finance</h3>
+              <p><strong>03/2024 - 04/2024</strong></p>
+              <br>
+              <p>Conducted ESG research on 8+ companies, analyzing corporate governance structures and produced a research brief on ESG governance in China.</p>
             </div>
           </div>
 
-          <!-- CARD 3 -->
           <div class="card">
-            <div class="card-photo">Project Image</div>
+            <div class="card-photo" style="background:#e67e22; color:white; font-size:16px;">
+              📈 Investment Advisory
+            </div>
             <div class="card-text">
-              <h3>Project Title</h3>
-              <p>Short description of what you did and the tools you used.</p>
+              <h3>Investment Advisory Intern @ Dingzhicheng</h3>
+              <p><strong>01/2024 - 02/2024</strong></p>
+              <br>
+              <p>Provided real-time market intelligence and tailored investment ideas to 15+ retail and institutional clients, conducting fundamental research on 10+ listed companies.</p>
             </div>
           </div>
+
+          <div class="card">
+            <div class="card-photo" style="background:#7f8c8d; color:white; font-size:16px;">
+              💼 Finance Internship
+            </div>
+            <div class="card-text">
+              <h3>Finance Intern @ Jiewang Legal</h3>
+              <p><strong>06/2023 - 09/2023</strong></p>
+              <br>
+              <p>Automated data processing workflows to analyze 5,000+ records, reducing manual processing time by 40%. Developed enhanced Excel-based financial models.</p>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
+
+      <!-- ---------- TAB 3: PROJECTS ---------- -->
+      <div id="projects" class="tab-content">
+        <div class="cards">
+
+          <div class="card">
+            <div class="card-photo" style="background:#34495e; color:white; font-size:16px;">
+              🎓 Graduation Thesis
+            </div>
+            <div class="card-text">
+              <h3>Climate Policy & Ag-Price Volatility</h3>
+              <p><strong>Tools:</strong> R, Stata, Econometric Modeling</p>
+              <br>
+              <p>Conducted empirical volatility modeling (VAR, GARCH-type) across agricultural commodities using 23 years of data to assess the dynamic spillover of climate policy uncertainty shocks.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- ---------- TAB 4: COMMUNITY ---------- -->
+      <div id="community" class="tab-content">
+        <div class="cards">
+
+          <div class="card">
+            <div class="card-photo" style="background:#27ae60; color:white; font-size:16px;">
+              🧹 Community Sanitation
+            </div>
+            <div class="card-text">
+              <h3>Community Sanitation Volunteer</h3>
+              <p><strong>07/2024</strong></p>
+              <br>
+              <p>Contributed to public health efforts by organizing and participating in community space cleanups and improving neighborhood living conditions.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-photo" style="background:#8e44ad; color:white; font-size:16px;">
+              🎓 Commencement
+            </div>
+            <div class="card-text">
+              <h3>Commencement Volunteer</h3>
+              <p><strong>06/2024</strong></p>
+              <br>
+              <p>Supported graduation event operations, assisting with photography coordination and ceremonial logistics to ensure smooth proceedings.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-photo" style="background:#e67e22; color:white; font-size:16px;">
+              🤝 Community Relations
+            </div>
+            <div class="card-text">
+              <h3>Community Relations Volunteer</h3>
+              <p><strong>07/2023</strong></p>
+              <br>
+              <p>Assisted in resolving local resident concerns, facilitating communication and helping maintain a harmonious community environment.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-photo" style="background:#16a085; color:white; font-size:16px;">
+              🌊 Beach Cleanup
+            </div>
+            <div class="card-text">
+              <h3>Beach Cleanup Volunteer</h3>
+              <p><strong>05/2023</strong></p>
+              <br>
+              <p>Participated in shoreline waste removal efforts, promoting marine environmental protection and community sustainability awareness.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-photo" style="background:#2980b9; color:white; font-size:16px;">
+              🛡️ Epidemic Prevention
+            </div>
+            <div class="card-text">
+              <h3>Epidemic Prevention Volunteer</h3>
+              <p><strong>08/2022</strong></p>
+              <br>
+              <p>Helped coordinate nucleic acid testing queue management and resident registration, enhancing efficiency of large-scale pandemic response operations.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
 
     <!-- ============================================================
        SIMPLE TAB SWITCHING SCRIPT
